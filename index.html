@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Home work 7</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-	<link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap.css">
-</head>
-<body>
-	<!-- first commit -->
-	<script type="text/javascript" src="./vendor/js/bootstrap.js"></script>
-</body>
+	<head>
+		<title>Home work 7</title>
+		<link rel="stylesheet" type="text/css" href="./vendor/css/bootstrap.css">
+
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<!-- Кнопка с полосочками для вызова выпадающего меню на мобильных устройствах -->
+				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">BOOTSTRAP</a>
+			</div>
+			<!--Элемент выпадающего меню -->
+			<div id="navbarCollapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">ABOUT</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №1</div>-->
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №2</div>-->
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №3</div>-->
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №4</div>-->
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №5</div>-->
+		<!--<div class="col-xs-12 col-lg-12 col-md-12">Блок №6</div>-->
+
+		<div class="container-fluid">
+			<div class="row">
+
+			</div>
+		</div>
+		<div class="row">
+			<div class="jumbotron">
+				<h2>Осенняя распродажа</h2>
+				<p><img src="images/big_monitor.png" class="img-responsive"></p>
+				<p>скидки 50% на большие мониторы LG</p>
+				<p><a class="btn btn-primary btn-lg" role="button">Узнать больше</a></p>
+			</div>
+		</div>
+		<div class="col-xs-12" style="background-color: #AFEEEE; padding: 10px;">
+			<-- Компонент Jumbotron -->
+			<div class="jumbotron">
+				<h2>Осенняя распродажа</h2>
+				<p><img src="images/big_monitor.png" class="img-responsive"></p>
+				<p>скидки 50% на большие мониторы LG</p>
+				<p><a class="btn btn-primary btn-lg" role="button">Узнать больше</a></p>
+			</div>
+			<!-- Блок основного содержимого сайта -->
+			<div style="background-color: #D3D3D3; padding: 10px;">
+				<h2>Остальной текст страницы</h2>
+			</div>
+		</div>
+
+		<!-- Блок для выравнивания макета -->
+		<div class="clearfix"></div>
+
+		<footer class="modal-footer">
+			<h6 class="text-center">Copyright &reg; My site 2017</h6>
+		</footer>
+
+
+		<!-- !!! скрипты все лучше подключать в самом конце -->
+		<!-- лучше скачивать jquery в проект, а не по ссылки на него ссылаться -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js">
+
+		</script>
+
+		<script type="text/javascript" src="./vendor/js/bootstrap.js">
+
+		</script>
+	</body>
 </html>
